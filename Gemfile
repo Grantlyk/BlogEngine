@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 gem 'zurb-foundation', '~> 4.0.0'
 
+gem 'bcrypt-ruby', :require => 'bcrypt'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
