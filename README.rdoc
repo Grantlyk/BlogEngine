@@ -3,4 +3,3 @@
 This BlogEngine is a new project and not open for contribution just yet, please feel free
 to contact me at grant@koansystems.co.uk for more information
 
-<tt>rake doc:app</tt>.
