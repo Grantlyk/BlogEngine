@@ -15,8 +15,11 @@
       <li>
         <% if current_user %>
           <%= link_to "Log out", log_out_path %>
+          <li class="divider hide-for-small"></li>
+            <li>
+              <%= link_to "Admin Panel", admin_panel_path %>
+            </li>
         <% else %>
-        <%# Log in used to be here %>
         <% end %>
       </li>
       <li class="divider hide-for-small"></li>
