@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140811145735) do
+ActiveRecord::Schema.define(version: 20140910122829) do
 
   create_table "comments", force: true do |t|
     t.integer  "post_id"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20140811145735) do
     t.string   "username"
     t.string   "password_hash"
     t.string   "password_salt"
+    t.string   "roles",         default: "--- []"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
