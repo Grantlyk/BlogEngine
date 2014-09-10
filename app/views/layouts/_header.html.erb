@@ -16,11 +16,7 @@
         <% if current_user %>
           <%= link_to "Log out", log_out_path %>
         <% else %>
-          <%= link_to "Sign up", sign_up_path %>
-          <li class="divider hide-for-small"></li>
-      <li>
-        <%= link_to "Log in", log_in_path %>
-      </li>
+        <%# Log in used to be here %>
         <% end %>
       </li>
       <li class="divider hide-for-small"></li>
